@@ -95,6 +95,10 @@ main {
 		justify-content: center;
     }
 
+	.hero1_kid1 {
+		margin-inline: auto;
+	}
+
 	.hero2 {
 		flex-direction: column;
 		justify-content: center;
