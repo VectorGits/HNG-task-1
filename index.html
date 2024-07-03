@@ -5,13 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>2 year goal</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="script.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<nav>
+		<nav class="nav">
 			<ul>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#plan">Plan</a></li>
+				<li><a href="#slack">HNG-Slack</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -23,7 +28,7 @@
 				</div>
 				<div class="hero1_kid2">
 					<h1>About Me</h1>
-					<p>Hello! I'm Vector, a passionate software engineer with a strong background in frontend development and a growing expertise in backend development. With experience in coding and teaching computer practicals to kids, I bring a unique blend of technical skills and educational insights to my projects. I am currently focused on building innovative solutions that address real-world needs while showcasing my proficiency in modern web technologies like React, HTML, CSS, and JavaScript. Beyond my professional endeavors, I enjoy contributing to the tech community through writing weekly recap articles on notable crypto news. My ultimate goal is to create impactful software that enhances user experiences and makes a difference in people's lives.</p>
+					<p>Hello! I'm Vector, a passionate software engineer with a strong background in frontend development and a growing expertise in backend development. With experience in coding and teaching computer practicals to kids, I bring a unique blend of technical skills and educational insights to my projects. I am currently focused on building innovative solutions that address real-world needs while showcasing my proficiency in modern web technologies like React, HTML, CSS, and JavaScript. Beyond my professional endeavors, I enjoy playing chess. My ultimate goal is to create impactful software that enhances user experiences and makes a difference in people's lives. I am currently in the <a data-testid="hngLink" href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer">HNG</a> Program as an Frontend Intern. Use <a data-testid="keywordLink" href="http://keyword.dog" target="_blank" rel="noopener noreferrer">Keyword Dog</a> for your SEO optimization needs and <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site" target="_blank" rel="noopener noreferrer">scrapeanywesite</a> to scrape websites. You're welcome ;)</p>
 				</div>
 			</div>
 		</section>
@@ -32,19 +37,46 @@
 				<div class="hero1_kid1">
 					<img src="./public/plan.jpg" alt="Image with calendars and goals">
 				</div>
-				<div class="hero1_kid2">
+				<div class="hero2_kid2">
 					<h1>Plan</h1>
+					<h3>Year One; Skill development</h3>
 					<ul>
-						<li>Year One; Skill development
-							<ul>
-								<li><strong>Q1:</strong>Master Advanced JavaScript and React.js</li>
-								<li><strong>Q1:</strong>Learn Node.js and Express.js</li>
-								<li><strong>Q1:</strong>Master SQL and NoSQL databases</li>
-								<li><strong>Q1:</strong>Learn DevOps and cloud services</li>
-							</ul>
-						</li>
-
+						<li><strong>Q1:</strong>Master Advanced JavaScript and React.js</li>
+						<li><strong>Q2:</strong>Learn Node.js and Express.js</li>
+						<li><strong>Q3:</strong>Master SQL and NoSQL databases</li>
+						<li><strong>Q4:</strong>Learn DevOps and cloud services</li>
 					</ul>
+					<h3>Year Two; Specialization and contribution</h3>
+					<ul>
+						<li><strong>Q1:</strong>Specialize in AI, Blockchain, or Cybersecurity</li>
+						<li><strong>Q2:</strong>Contribute to open-source projects</li>
+						<li><strong>Q3:</strong>Network with industry professionals</li>
+						<li><strong>Q4:</strong>Apply for job or freelance opportunities</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Project section -->
+		<section id="slack">
+			<div class="hero1">
+				<div class="hero1_kid1">
+					<img src="./public/profile.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+				</div>
+				<div class="hero1_kid2">
+					<h1>Slack Details</h1>
+					<div data-testid="slackDisplayName">
+						<h3>Name: Vector</h3>
+					</div>
+					<div>
+						<h3>Time: <span data-testid="currentTimeUTC"></span></h3>
+					</div>
+					<div>
+						<h3>Day: <span data-testid="currentDay"></span></h3>
+					</div>
+					<div>
+						<h3 data-testid="slackEmail">Email: davidoluremi0@gmail.com</h3>
+					</div>
 				</div>
 			</div>
 		</section>
