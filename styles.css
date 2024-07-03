@@ -89,7 +89,7 @@ main {
 
 
 /* MEDIA QUERY */
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .hero1 {
         flex-direction: column;
 		justify-content: center;
